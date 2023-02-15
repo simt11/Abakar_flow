@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.main.EditFragment">
+
+    <TextView
+        android:id="@+id/info_text_name"
+        android:text="@string/text_name"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/text_static" />
+
+    <EditText
+        android:id="@+id/info_name"
+        android:autofillHints=""
+        android:hint="@string/edit_name"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/info_text_name"
+        style="@style/edit_text" />
+
+    <TextView
+        android:id="@+id/info_text_age"
+        android:text="@string/text_age"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/info_name"
+        style="@style/text_static" />
+
+    <EditText
+        android:id="@+id/info_age"
+        android:hint="@string/edit_age"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/info_text_age"
+        style="@style/edit_text" />
+
+    <TextView
+        android:id="@+id/text_adress"
+        android:text="@string/text_adress"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/info_age"
+        style="@style/text_static" />
+
+    <EditText
+        android:id="@+id/edit_adress"
+        android:autofillHints="postalAddress"
+        android:hint="@string/edit_adress"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_adress"
+        style="@style/edit_text" />
+
+    <TextView
+        android:id="@+id/text_email"
+        android:text="@string/text_email"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_adress"
+        style="@style/text_static" />
+
+    <EditText
+        android:id="@+id/edit_email"
+        android:autofillHints="emailAddress"
+        android:hint="@string/edit_email"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_email"
+        style="@style/edit_text" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

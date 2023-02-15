@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="edit_text">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/normal_text</item>
+        <item name="android:background">@drawable/border_green</item>
+        <item name="android:layout_marginStart">@dimen/Margin</item>
+        <item name="android:layout_marginEnd">@dimen/Margin</item>
+        <item name="android:padding">5dp</item>
+    </style>
+
+    <style name="info_text">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/normal_text</item>
+        <item name="android:background">@drawable/border_blue</item>
+        <item name="android:layout_marginStart">@dimen/Margin</item>
+        <item name="android:layout_marginEnd">@dimen/Margin</item>
+        <item name="android:padding">5dp</item>
+    </style>
+
+    <style name="text_static">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">@dimen/Margin</item>
+        <item name="android:layout_marginTop">@dimen/Margin</item>
+        <item name="android:layout_marginEnd">@dimen/Margin</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:textSize">@dimen/normal_text</item>
+    </style>
+</resources>
